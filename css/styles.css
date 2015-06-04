@@ -19,10 +19,9 @@ h1 {
 	line-height: 100px;
 	text-align: center;
 	color: #333333;
-	font-family: SantEliaScript-Bold; 
+	font-family: SantEliaScript-Black, sans-serif;
 	font-weight: normal; 
 	font-style: normal; 
-	font-kerning: normal;
 }
 
 h3 {
@@ -32,6 +31,10 @@ h3 {
 	font-weight: 300;
 	font-family: 'Open Sans', sans-serif;
 }
+
+.lspace { letter-spacing: -22px;}
+.lspace2 {letter-spacing: -14px;}
+.lspace3 {letter-spacing: -3px;}
 
 .page_wrap {
 	position: absolute;
@@ -51,7 +54,7 @@ h3 {
 }
 
 .sub-txt {
-	margin: -25px auto 0;
+	margin: -50px auto 0;
 	text-align: center;
 }
 
@@ -76,7 +79,7 @@ h3 {
 	position: absolute;
 	bottom: 0;
 	text-align: center;
-	padding: 10px;
+	padding: 10px 0;
 	color:#777;
 	font-weight: 600;
 }
@@ -86,4 +89,105 @@ h3 {
 	color:#999;
 	text-transform: uppercase;
 	font-weight: 600;
+}
+
+.hrt {
+	font-size: 18px;
+}
+
+@media screen and (max-width: 850px) {
+	.content_wrap {
+		position: relative;
+		top: 28%;
+		left: 0;
+		margin-left: 0;
+		max-width: 100%;
+		text-align: center;
+		margin: 0 auto;
+	}
+
+	h1 {
+		font-size: 80px;
+		line-height: 75px;
+		text-align: center;
+		color: #333333;
+		font-family: SantEliaScript-Black, sans-serif;
+		font-weight: normal; 
+		font-style: normal; 
+	}
+
+	h3 {
+		font-size: 16px;
+		line-height: 30px;
+		text-align: center;
+		font-weight: 300;
+		font-family: 'Open Sans', sans-serif;
+	}
+
+	.sub-txt {
+		margin: -30px auto 0;
+	}
+
+}
+
+@media screen and (max-width: 600px) {
+	h1 {
+		font-size: 60px;
+		line-height: 55px;
+		text-align: center;
+		color: #333333;
+		font-family: SantEliaScript-Black, sans-serif;
+		font-weight: normal; 
+		font-style: normal; 
+	}
+
+	.lspace { letter-spacing: -18px;}
+	.lspace2 {letter-spacing: -9px;}
+	.lspace3 {letter-spacing: -1px;}
+
+	h3 {
+		font-size: 16px;
+		line-height: 20px;
+		text-align: center;
+		font-weight: 300;
+		font-family: 'Open Sans', sans-serif;
+	}
+
+	.sub-txt {
+		margin: -15px auto 0;
+		width: 300px;
+	}
+
+}
+
+@media screen and (max-width: 350px) {
+	h1 {
+		font-size: 55px;
+	}
+
+	.footer {
+		font-size: 10px;
+	}
+}
+
+@media screen and (max-height: 650px) {
+	.content_wrap {
+		top: 18%;
+	}
+
+	.button {
+		text-align: center;
+		margin: 75px auto 0;
+	}
+}
+
+@media screen and (max-height: 570px) {
+	.content_wrap {
+		top: 10%;
+	}
+
+	.button {
+		text-align: center;
+		margin: 55px auto 0;
+	}
 }
