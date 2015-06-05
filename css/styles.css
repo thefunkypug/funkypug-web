@@ -180,7 +180,7 @@ h3 {
 
 @media screen and (max-height: 650px) {
 	.content_wrap {
-		top: 18%;
+		top: 22%;
 	}
 
 	.button {
@@ -191,7 +191,7 @@ h3 {
 
 @media screen and (max-height: 570px) {
 	.content_wrap {
-		top: 10%;
+		top: 18%;
 	}
 
 	.button {
