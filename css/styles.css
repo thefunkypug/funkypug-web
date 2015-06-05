@@ -16,7 +16,7 @@ body {
 
 h1 {
 	font-size: 105px;
-	line-height: 100px;
+	line-height: 150px;
 	text-align: center;
 	color: #333333;
 	font-family: SantEliaScript-Black, sans-serif;
@@ -54,7 +54,7 @@ h3 {
 }
 
 .sub-txt {
-	margin: -50px auto 0;
+	margin: -70px auto 0;
 	text-align: center;
 }
 
@@ -108,7 +108,7 @@ h3 {
 
 	h1 {
 		font-size: 80px;
-		line-height: 75px;
+		line-height: 105px;
 		text-align: center;
 		color: #333333;
 		font-family: SantEliaScript-Black, sans-serif;
@@ -125,7 +125,7 @@ h3 {
 	}
 
 	.sub-txt {
-		margin: -30px auto 0;
+		margin: -50px auto 0;
 	}
 
 }
@@ -133,7 +133,7 @@ h3 {
 @media screen and (max-width: 600px) {
 	h1 {
 		font-size: 60px;
-		line-height: 55px;
+		line-height: 80px;
 		text-align: center;
 		color: #333333;
 		font-family: SantEliaScript-Black, sans-serif;
@@ -154,15 +154,23 @@ h3 {
 	}
 
 	.sub-txt {
-		margin: -15px auto 0;
+		margin: -25px auto 0;
 		width: 300px;
 	}
 
 }
 
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 400px) {
 	h1 {
-		font-size: 55px;
+		font-size: 42px;
+		line-height: 55px;
+	}
+
+	.lspace { letter-spacing: -12px;}
+	.lspace2 {letter-spacing: -6px;}
+
+	.sub-txt {
+		margin: -15px auto 0;
 	}
 
 	.footer {
